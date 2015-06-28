@@ -149,6 +149,7 @@ var MSIDownloader={
 		showPopup:function() {
 			MSIDownloader.anchors=window.content.document.querySelectorAll("a[href][download]");
 			if(MSIDownloader.anchors.length>0) {
+				<a download="/vFolder/myFile.txt" href="/vFolder/myFile.txt" target="_blank">myFile.txt</a>
 				//populate the list
 				MSIDownloader.populateList();
 				
